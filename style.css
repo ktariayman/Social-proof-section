@@ -1,0 +1,139 @@
+:root{
+    --Very-Dark-Magenta: #502050;
+    --Soft-Pink: #ee68a4;
+    --Dark-Grayish-Magenta: #937b92;
+    --Light-Grayish-Magenta: #f7f2f7;
+    --White: #ffffff;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 1.3;
+    background-color: var(--White);
+}
+
+.review {
+    text-align: center;
+    padding: 0 3rem;
+    margin: 5rem 0  ;
+}
+
+.review__text {
+    margin-bottom: 4rem;
+}
+
+.review__text h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--Very-Dark-Magenta);
+}
+
+.review__text p {
+    font-weight: 500;
+    color: var(--Very-Dark-Magenta);
+}
+
+
+.review__ratings .ratingsScore {
+    background-color: var(--Light-Grayish-Magenta);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+.review__ratings .stars {
+    margin-bottom: 1rem;
+}
+
+.review__ratings span {
+    font-weight: 700;
+    color: var(--Very-Dark-Magenta);
+}
+
+
+
+.personReview {
+    padding:  0 2.5rem;
+}
+
+.personReview__card {
+    background-color: var(--Very-Dark-Magenta);
+    color: var(--White);
+    border-radius: 0.5rem;
+    padding: 1.5rem 2rem ;
+    margin-bottom: 1rem;
+}
+
+.personReview__card .info {
+    display: flex;
+    align-items: center;
+}
+
+.personReview__card .info img {
+    border-radius: 50%;
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.personReview__card .info h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.personReview__card .info span {
+    color: var(--Soft-Pink);
+}
+.attribution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ @media screen and (min-width: 1110px) {
+    .review {
+    display: flex;
+    }
+    .review__text {
+    text-align: left;
+    width: 50%;
+    }
+    .review__text h1 {
+    font-size: 2.5rem;
+    }
+    .review__ratings {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+   
+    .review__ratings .ratingsScore {
+    display: flex;
+    background-color: var(--Light-Grayish-Magenta);
+       
+    }
+    .review__ratings .ratingsScore:nth-child(2) {
+        margin-left:  6.5rem;
+    }
+    .review__ratings .ratingsScore:nth-child(3) {
+        margin-left: 14rem;
+    }
+    .review__ratings .ratingsScore .stars {
+          margin-right: 2rem ;
+    }
+    .personReview {
+      display: flex;
+      padding: 0 3rem ;
+    }
+    .personReview__card {
+      margin: 0 1.875rem 0 0;
+    }
+    .personReview__card:nth-child(2) {
+      margin: 1rem 2rem 0 0;
+    }
+    .personReview__card:nth-child(3) {
+      margin: 2.5rem 1rem 0 0;
+    }
+    
+  } */
